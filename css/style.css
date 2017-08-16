@@ -3,7 +3,6 @@
 	padding: 0;
 	
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 	
 	font-family: 'Roboto Condensed', sans-serif;
@@ -20,7 +19,7 @@ footer {
 	width: 100%;
 }
 
-/* HEADER */
+/* HEADER */
 
 .top-logo {
 	margin-top: 20px;
@@ -31,12 +30,9 @@ footer {
 	
 	/* background-image: url(img/log-2600.png), url(img/log-1440.png), url(img/log-800.png), url(img/log-400.png); */
 	
-	background-image: url(img/log-800.png);
+	background-image: url(../img/log-800.png);
 	background-repeat: no-repeat;
-	
-	-webkit-background-size: 100% auto;
-	     -o-background-size: 100% auto;
-	        background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 .main-logo {
@@ -49,26 +45,20 @@ footer {
 	height: 100%;
 	
 
-	background-image: url(img/main-800.jpg);
+	background-image: url(../img/main-800.jpg);
 	background-repeat: no-repeat;
-	
-	-webkit-background-size: 100% auto;
-	     -o-background-size: 100% auto;
-	        background-size: 100% auto;
+	background-size: 100% auto;
 }
 
-/* MAIN */
+/* MAIN */
 
 main {
 	padding-bottom: 28px;
 	
-	background-image: url(img/bg-im-800.jpg);	
+	background-image: url(../img/bg-im-800.jpg);	
 	background-color: #ffa300;
 	background-repeat: no-repeat;
-	
-	-webkit-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
+	background-size: cover;
 	
 	background-position: center;
 }
@@ -100,7 +90,7 @@ a:hover {
 	opacity: .9;
 }
 
-/* FOOTER */
+/* FOOTER */
 
 footer {
 	width: 100%;
@@ -112,13 +102,10 @@ footer {
 	margin-bottom: 20px;
 
 
-	background-image: url(img/foot-800.jpg);
+	background-image: url(../img/foot-800.jpg);
 	
 	background-repeat: no-repeat;
-	
-	-webkit-background-size: auto 100% ;
-	     -o-background-size: auto 100%;
-	        background-size: auto 100%;
+	background-size: auto 100%;
 	
 	background-position: center;
 }
@@ -175,19 +162,19 @@ footer {
 
 @media (min-width: 780px) {
 	.top-logo {
-		background-image: url(img/log-1440.png);
+		background-image: url(../img/log-1440.png);
 	}
 
 	.main-logo {
-		background-image: url(img/main-1440.jpg);
+		background-image: url(../img/main-1440.jpg);
 	}
 
 	main {
-		background-image: url(img/bg-im-1600.jpg);
+		background-image: url(../img/bg-im-1600.jpg);
 	}
 
 	footer {
-		background-image: url(img/foot-1440.jpg);
+		background-image: url(../img/foot-1440.jpg);
 	}
 
 	li {
